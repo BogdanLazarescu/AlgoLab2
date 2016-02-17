@@ -54,6 +54,7 @@ public class CircularArrayQueue implements MyQueue {
 		}
 	}
 	
+	//returns the first element added in the queue
 	public int dequeue() throws NoSuchElementException {
 		if(this.isEmpty())
 			throw new NoSuchElementException();
