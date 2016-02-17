@@ -78,6 +78,7 @@ public class CircularArrayQueue implements MyQueue {
 		return elements.length;
 	}
 	
+	//return the number of elements that can be added
 	public int getCapacityLeft(){
 		return this.elements.length - this.elemNum;
 	}
