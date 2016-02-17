@@ -69,6 +69,7 @@ public class CircularArrayQueue implements MyQueue {
 		return elemNum;
 	}
 
+	//check if the queue is empty
 	public boolean isEmpty() {
 		return (noItems() == 0);
 	}
